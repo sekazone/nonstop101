@@ -1,0 +1,104 @@
+body { margin:0; padding:0; background:#eee;}
+a { color: #f33; text-decoration: none; }
+a:hover { color:#eee; }
+#map { position:absolute; top:0; bottom:0; right: 0; width:80%; border-left: 5px solid #f33; }
+#nav {
+  top: 0;
+	left: 0;
+	width:18%;
+	padding:15px;
+
+	}
+#logo {border-bottom: 1px solid #ccc}
+#logo img {
+	max-width:60%;
+	}
+.controls div{
+	font: 20px 'Ubuntu', sans-serif; 
+	height:48px;
+	border-bottom: 1px solid #ccc;
+	padding:10px;
+	padding-left:40px;
+	-webkit-transition: all 0.7s ease 0s; 
+	-moz-transition: all 0.7s ease 0s; 
+	-o-transition: all 0.7s ease 0s; 
+	transition: all 0.7s ease 0s; 
+	}	
+.controls div:hover {
+	background: #f33;
+	}
+.controls li:hover a{
+	color: #eee;
+	}
+#mylocation { 
+	background: url(http://i.imgur.com/50LgP5Q.png) no-repeat 10px 6px;
+	}
+#mylocation:hover { 
+	background: url(http://i.imgur.com/cn7R0lE.png) no-repeat 10px 6px #f33;
+	}
+#places { 
+	background: url(http://i.imgur.com/5fjRGLH.png) no-repeat 10px 6px;
+	}
+#places:hover { 
+	background: url(http://i.imgur.com/coyTvU3.png) no-repeat 10px 6px #f33;
+	}
+#places:hover select{ color: #eee;}
+#places:hover option{ color: #f33;}
+#search { 
+	background: url(http://i.imgur.com/2LJjCj1.png) no-repeat 10px 6px;
+	}
+#search:hover { 
+	background: url(http://i.imgur.com/25GsiMx.png) no-repeat 10px 6px #f33;
+	}
+#search:hover input[type="text"] {
+	color:#eee; 
+	}
+h1 {
+	font: 24px 'Ubuntu', sans-serif; 	
+	color: #eee;
+	margin-bottom: 15px;
+}
+
+hr {
+  border: 1px solid #666;
+  width: 100%;
+} 
+select {
+	background: transparent; 
+	border:none;
+	color: #f33;
+	font: 20px 'Ubuntu', sans-serif; ;  
+	height: 40px;
+	padding: 6px;
+	margin-left:10px;
+	max-width:80%; }
+input[type="text"] {
+	background: transparent; 
+	border:none;
+	color: #f33;
+	font: 20px 'Ubuntu', sans-serif;  
+	height: 20px;
+	padding: 6px;
+	margin-left:10px;
+	max-width:70%; 
+	-webkit-transition: all 0.7s ease 0s; 
+	-moz-transition: all 0.7s ease 0s; 
+	-o-transition: all 0.7s ease 0s; 
+	transition: all 0.7s ease 0s; 
+	}  
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #f33;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:#f33;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:#f33;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:#f33;
+}
+ input[type="text"]:hover, input[type="text"]:active  { 
+	color: #eee; 
+	}
+
